@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+  COMETA — Página de entrada al sistema
+  Escrito por Francisco Rentería Guzmán
+  Un libro, un juego, y una práctica de 360 días.
+  Contenido generado con asistencia de Claude (Anthropic).
+-->
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>COMETA — Un libro, un juego, 360 días</title>
+<meta name="author" content="Francisco Rentería Guzmán">
+<meta name="description" content="COMETA: un sistema transmedia de tres piezas — un juego narrativo, un libro de 7 dimensiones, y una práctica de 360 días. Empieza por donde quieras.">
+<meta property="og:title" content="COMETA — Francisco Rentería Guzmán">
+<meta property="og:description" content="Un juego que sabe que es un juego. Un libro con 51 citas verificadas. Una práctica de 360 días. Tres piezas, un solo sistema.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400;500&display=swap');
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  background:#080c10;color:#f5f1e8;font-family:'Crimson Pro',serif;
+  min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:40px 20px;line-height:1.6;
+}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.4em;
+  color:#b8943a;text-transform:uppercase;margin-bottom:18px;}
+h1{font-family:'Playfair Display',serif;font-size:clamp(32px,7vw,56px);font-weight:900;
+  text-align:center;margin-bottom:10px;}
+h1 em{font-style:italic;color:#d4a843;}
+.tagline{font-family:'Crimson Pro',serif;font-style:italic;font-size:16px;
+  color:rgba(245,241,232,.55);text-align:center;max-width:480px;margin-bottom:56px;}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+  gap:18px;max-width:820px;width:100%;}
+.card{
+  background:rgba(245,241,232,.03);border:1px solid rgba(245,241,232,.12);
+  padding:28px 24px;text-decoration:none;color:inherit;transition:all .25s;
+  display:flex;flex-direction:column;gap:10px;position:relative;overflow:hidden;
+}
+.card:hover{background:rgba(245,241,232,.06);border-color:var(--accent);transform:translateY(-3px);}
+.card-tag{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.25em;
+  text-transform:uppercase;color:var(--accent);}
+.card-title{font-family:'Playfair Display',serif;font-size:22px;font-weight:700;}
+.card-desc{font-size:13px;color:rgba(245,241,232,.55);line-height:1.6;}
+.card-cta{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.1em;
+  color:var(--accent);margin-top:auto;padding-top:10px;}
+.c-game{--accent:#00e5ff;}
+.c-book{--accent:#9a6dff;}
+.c-codex{--accent:#d4a843;}
+.footer{margin-top:56px;font-family:'JetBrains Mono',monospace;font-size:10px;
+  letter-spacing:.15em;color:rgba(245,241,232,.3);text-align:center;}
+.footer a{color:rgba(245,241,232,.45);}
+.suggest{margin-top:28px;font-size:12px;color:rgba(245,241,232,.35);text-align:center;
+  font-style:italic;max-width:400px;}
+</style>
+</head>
+<body>
+  <div class="eyebrow">Francisco Rentería Guzmán</div>
+  <h1>ME<em>TA</em></h1>
+  <div class="tagline">Un sistema de tres piezas. Empieza por donde quieras — todas se conectan entre sí.</div>
+
+  <div class="cards">
+    <a class="card c-game" href="COMETA-game-v10.html">
+      <div class="card-tag">Empieza aquí · El Juego</div>
+      <div class="card-title">COMETA — El Juego que Sabe que es un Juego</div>
+      <div class="card-desc">Un personaje consciente de su propio código te hace las preguntas que el libro no puede hacer. 4 actos, finales secretos, tu nombre verdadero.</div>
+      <div class="card-cta">Jugar →</div>
+    </a>
+    <a class="card c-book" href="COMETA-biblia-hacking.html">
+      <div class="card-tag">El Libro</div>
+      <div class="card-title">La Biblia del Hacking Humano</div>
+      <div class="card-desc">Las 7 Dimensiones del ser humano, 21 sesgos cognitivos, y 51 citas verificadas públicamente. Se desbloquea en tu primer final del juego.</div>
+      <div class="card-cta">Leer →</div>
+    </a>
+    <a class="card c-codex" href="COMETA-codex-vitae.html">
+      <div class="card-tag">El Codex</div>
+      <div class="card-title">Codex Vitae — 360 Días</div>
+      <div class="card-desc">Una práctica diaria de 360 días (y 30 más ocultos) a través de 16 tradiciones de sabiduría. Se desbloquea en tu segundo final del juego.</div>
+      <div class="card-cta">Comenzar →</div>
+    </a>
+  </div>
+
+  <div class="suggest">Si es tu primera vez aquí, el Juego es el punto de entrada pensado para ti. El Libro y el Codex funcionan también de forma independiente.</div>
+
+  <div class="footer">© Francisco Rentería Guzmán · Sistema COMETA</div>
+</body>
+</html>

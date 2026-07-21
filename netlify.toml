@@ -1,0 +1,13 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+# Cachea agresivamente los HTML de las 3 obras + el index, ya que su contenido
+# cambia por deploy, no por hora. Netlify invalida el caché en cada deploy nuevo.
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

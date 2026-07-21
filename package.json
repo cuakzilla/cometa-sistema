@@ -1,0 +1,8 @@
+{
+  "name": "cometa-sistema",
+  "private": true,
+  "version": "1.0.0",
+  "description": "COMETA — un juego, un libro, 360 días. Sistema transmedia de Francisco Rentería Guzmán.",
+  "author": "Francisco Rentería Guzmán",
+  "engines": { "node": ">=18" }
+}
